@@ -1,0 +1,75 @@
+h1 {
+  font-family: bookman-jf-pro, serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0; }
+
+h2 {
+  font-family: muli, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 5px;
+  margin: 0; }
+
+h3 {
+  font-family: bookman-jf-pro, serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-weight: 300; }
+
+.pull-quote {
+  font-family: bookman-jf-pro, serif;
+  font-size: 42px;
+  line-height: 52px; }
+  .pull-quote span {
+    margin-left: -25px;
+    margin-right: -8px; }
+  .pull-quote .term-p {
+    margin-right: 4px; }
+
+.lrg-p {
+  font-family: bookman-jf-pro, serif;
+  font-size: 17px;
+  font-size: 1.1rem;
+  line-height: 22px;
+  letter-spacing: .4px;
+  font-weight: 300; }
+
+p {
+  font-family: muli, sans-serif;
+  font-weight: 300;
+  line-height: 20px;
+  font-size: 14px;
+  font-size: .9rem; }
+
+ul li {
+  font-family: muli, sans-serif;
+  font-weight: 300;
+  line-height: 20px;
+  font-size: 14px;
+  font-size: .9rem; }
+
+header ul li {
+  font-family: bookman-jf-pro, serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 4px; }
+
+.cap {
+  opacity: .3;
+  transition: .5s ease-in-out; }
+  .cap:hover {
+    opacity: 1;
+    transition: .5s ease-in-out; }
+
+.vidcap {
+  opacity: .2;
+  transition: .5s ease-in-out; }
+  .vidcap:hover {
+    opacity: .7;
+    transition: .5s ease-in-out; }
+
+/*# sourceMappingURL=font.css.map */

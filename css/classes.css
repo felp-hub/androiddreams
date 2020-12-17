@@ -1,0 +1,87 @@
+.padding-full-screen {
+  padding: 40vh 0; }
+
+.padding-forty {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.bigbib {
+  padding-top: 80px; }
+
+.lilbib {
+  padding-top: 50px;
+  padding-bottom: 25px; }
+
+.turing {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.breathe {
+  padding: 15vh 0; }
+
+.gasp {
+  padding: 20vh 0; }
+
+.splutter {
+  padding: 20vh 0 30vh; }
+
+.hal {
+  padding-bottom: 80px; }
+
+.sheep {
+  padding: 80px 0px; }
+
+.minor-padding {
+  padding-top: 15vh; }
+
+.voigt-cap {
+  position: absolute;
+  bottom: 5px;
+  right: 0; }
+
+.terminator {
+  margin-bottom: 80px; }
+
+.term-type {
+  padding-top: 60px; }
+
+.postban-term {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.muskrat {
+  padding-top: 80px; }
+
+.img-cont {
+  width: 100%;
+  height: 450px;
+  margin: 20px 0px;
+  background-position: center !important;
+  background-size: cover !important; }
+
+.muskest {
+  height: 350px; }
+
+.broom {
+  height: 800px; }
+
+.joi-img {
+  height: 810px; }
+
+.harmony {
+  height: 250px; }
+
+.cursor {
+  cursor: pointer !important; }
+
+a {
+  cursor: pointer !important; }
+
+/**
+*Medium.
+*/
+/*
+*LARGE.
+*/
+
+/*# sourceMappingURL=classes.css.map */

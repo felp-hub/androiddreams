@@ -1,0 +1,506 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+html,
+body {
+  background: #000000;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%; }
+
+* {
+  color: #f1f1f1;
+  line-height: 1.5; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.375rem; }
+
+h4 {
+  font-size: 1.125rem; }
+
+h5 {
+  font-size: 1rem; }
+
+h6 {
+  font-size: 0.875rem; }
+
+p {
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8; }
+
+.font-light {
+  font-weight: 300; }
+
+.font-regular {
+  font-weight: 400; }
+
+.font-heavy {
+  font-weight: 600; }
+
+.left {
+  text-align: left; }
+
+.right {
+  text-align: right; }
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+.justify {
+  text-align: justify; }
+
+.hidden-sm {
+  display: none; }
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  @media only screen and (min-width: 33.75em) {
+    .container {
+      width: 92%; } }
+  @media only screen and (min-width: 60em) {
+    .container {
+      width: 95%;
+      max-width: 95rem; } }
+
+.row {
+  position: relative;
+  width: 100%; }
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem; }
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 96%; }
+
+.col-1-sm {
+  width: 4.3333333333%; }
+
+.col-2-sm {
+  width: 12.6666666667%; }
+
+.col-3-sm {
+  width: 21%; }
+
+.col-4-sm {
+  width: 29.3333333333%; }
+
+.col-5-sm {
+  width: 37.6666666667%; }
+
+.col-6-sm {
+  width: 46%; }
+
+.col-7-sm {
+  width: 54.3333333333%; }
+
+.col-8-sm {
+  width: 62.6666666667%; }
+
+.col-9-sm {
+  width: 71%; }
+
+.col-10-sm {
+  width: 79.3333333333%; }
+
+.col-11-sm {
+  width: 87.6666666667%; }
+
+.col-12-sm {
+  width: 96%; }
+
+@media only screen and (min-width: 45em) {
+  .col-1 {
+    width: 4.3333333333%; }
+
+  .col-2 {
+    width: 12.6666666667%; }
+
+  .col-3 {
+    width: 21%; }
+
+  .col-4 {
+    width: 29.3333333333%; }
+
+  .col-5 {
+    width: 37.6666666667%; }
+
+  .col-6 {
+    width: 46%; }
+
+  .col-7 {
+    width: 54.3333333333%; }
+
+  .col-8 {
+    width: 62.6666666667%; }
+
+  .col-9 {
+    width: 71%; }
+
+  .col-10 {
+    width: 79.3333333333%; }
+
+  .col-11 {
+    width: 87.6666666667%; }
+
+  .col-12 {
+    width: 100%; }
+
+  .hidden-sm {
+    display: block; } }
+h1 {
+  font-family: bookman-jf-pro, serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0; }
+
+h2 {
+  font-family: muli, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 5px;
+  margin: 0; }
+
+h3 {
+  font-family: bookman-jf-pro, serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-weight: 300; }
+
+.pull-quote {
+  font-family: bookman-jf-pro, serif;
+  font-size: 42px;
+  line-height: 52px; }
+  .pull-quote span {
+    margin-left: -25px;
+    margin-right: -8px; }
+  .pull-quote .term-p {
+    margin-right: 4px; }
+
+.lrg-p {
+  font-family: bookman-jf-pro, serif;
+  font-size: 17px;
+  font-size: 1.1rem;
+  line-height: 22px;
+  letter-spacing: .4px;
+  font-weight: 300; }
+
+p {
+  font-family: muli, sans-serif;
+  font-weight: 300;
+  line-height: 20px;
+  font-size: 14px;
+  font-size: .9rem; }
+
+ul li {
+  font-family: muli, sans-serif;
+  font-weight: 300;
+  line-height: 20px;
+  font-size: 14px;
+  font-size: .9rem; }
+
+header ul li {
+  font-family: bookman-jf-pro, serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 4px; }
+
+.cap {
+  opacity: .3;
+  transition: .5s ease-in-out; }
+  .cap:hover {
+    opacity: 1;
+    transition: .5s ease-in-out; }
+
+.vidcap {
+  opacity: .2;
+  transition: .5s ease-in-out; }
+  .vidcap:hover {
+    opacity: .7;
+    transition: .5s ease-in-out; }
+
+header {
+  text-align: center; }
+  header ul {
+    list-style: none;
+    padding: 20px 0px; }
+    header ul li {
+      display: block;
+      padding: 5px 0px; }
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: black;
+  /* Black fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/opacity */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */ }
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 20%;
+  /* 25% from the top */
+  width: 100%;
+  /* 100% width */
+  text-align: center;
+  /* Centered text/links */
+  margin-top: 30px;
+  /* 30px top margin to avoid conflict with the close button on smaller screens */ }
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+  /* Display block instead of inline */
+  transition: 0.3s;
+  /* Transition effects on hover (color) */ }
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1; }
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px; }
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px; }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px; } }
+/**
+*Medium.
+*/
+/*
+*LARGE.
+*/
+@media screen and (min-width: 1024px) {
+  header ul li {
+    display: inline;
+    padding: 0px 40px; } }
+.padding-full-screen {
+  padding: 40vh 0; }
+
+.padding-forty {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.bigbib {
+  padding-top: 80px; }
+
+.lilbib {
+  padding-top: 50px;
+  padding-bottom: 25px; }
+
+.turing {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.breathe {
+  padding: 15vh 0; }
+
+.gasp {
+  padding: 20vh 0; }
+
+.splutter {
+  padding: 20vh 0 30vh; }
+
+.hal {
+  padding-bottom: 80px; }
+
+.sheep {
+  padding: 80px 0px; }
+
+.minor-padding {
+  padding-top: 15vh; }
+
+.voigt-cap {
+  position: absolute;
+  bottom: 5px;
+  right: 0; }
+
+.terminator {
+  margin-bottom: 80px; }
+
+.term-type {
+  padding-top: 60px; }
+
+.postban-term {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.muskrat {
+  padding-top: 80px; }
+
+.img-cont {
+  width: 100%;
+  height: 450px;
+  margin: 20px 0px;
+  background-position: center !important;
+  background-size: cover !important; }
+
+.muskest {
+  height: 350px; }
+
+.broom {
+  height: 800px; }
+
+.joi-img {
+  height: 810px; }
+
+.harmony {
+  height: 250px; }
+
+.cursor {
+  cursor: pointer !important; }
+
+a {
+  cursor: pointer !important; }
+
+/**
+*Medium.
+*/
+/*
+*LARGE.
+*/
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.bg-red {
+  background-color: red; }
+
+.banner {
+  height: 60vh;
+  min-height: 350px;
+  background-position: center !important;
+  background-size: cover !important;
+  position: relative; }
+  .banner .title {
+    height: 90px;
+    position: absolute;
+    padding: 0px .9rem;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  .banner:before {
+    content: '';
+    background-color: #000000;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .5;
+    transition: .5s ease-in-out; }
+  .banner:hover:before {
+    opacity: 0;
+    transition: .5s ease-in-out; }
+
+#read {
+  --scroll: 0%;
+  background: linear-gradient(to right, white var(--scroll), transparent 0);
+  position: fixed;
+  width: 100%;
+  height: 5px;
+  top: 0px;
+  z-index: 100; }
+
+/**
+*Medium.
+*/
+/*
+*LARGE.
+*/
+@media screen and (min-width: 1024px) {
+  .fp {
+    margin-top: -6vw !important; }
+
+  .eightypbaby {
+    width: 80%;
+    margin-left: 20%; }
+
+  .sevenfivep {
+    width: 75%; }
+
+  .sixtyp {
+    width: 60%;
+    margin-left: 20%; }
+
+  .fourtypbby {
+    width: 40%; }
+
+  .minus-margin {
+    margin-top: -220px !important; }
+
+  .minus-marge {
+    margin-top: -88px !important; }
+
+  .minet-marget {
+    margin-top: -140px !important; } }
+@media screen and (min-width: 1440px) {
+  .fp {
+    margin-top: -100px !important; } }
+
+/*# sourceMappingURL=custom.css.map */
